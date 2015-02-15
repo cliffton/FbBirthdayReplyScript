@@ -1,0 +1,4 @@
+import requests
+payload={'access_token':'CAACEdEose0cBAGefPDDoksm5GVtZCBgn9hbvUYDr7t2SqnucDlADTwlzZATyDLiY9ZCtCj5UCyH0f8JgtJTDiq3JQ8HPDGqcDNddd5Pob4dtTz2Ntfc2wp3YGIU9CGeNo3jAi7qLrkKJ40RAsZAVFUA8NslCZAthsNoZB9ZA58Q7GrZC3Gk1q1wBVZCjNRnWoDbQZD','message':'test Comment'}
+
+feed = requests.get('https://graph.facebook.com/cliffton/feed')
